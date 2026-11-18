@@ -8,7 +8,7 @@
 	  <li>1.7</li>
 	</supportedVersions>
 	<packageId>Talesoftherim.MinetechFaction</packageId>
-	<description>This mod added faction module for the Minetech mod.</description>
+	<description>This mod adds faction module for the Minetech mod.</description>
 
     <modDependencies>
 		<li>
