@@ -1,0 +1,7 @@
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Assemblies\MinetechFaction.dll
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Assemblies\MinetechFaction.pdb
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Source\obj\Debug\MinetechFaction.csproj.AssemblyReference.cache
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Source\obj\Debug\MinetechFaction.GeneratedMSBuildEditorConfig.editorconfig
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Source\obj\Debug\MinetechFaction.csproj.CoreCompileInputs.cache
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Source\obj\Debug\MinetechFaction.dll
+I:\Developments\RimWorld Mod Development\Commissions\WIP\Tales of the Rim Mods\MineTech Series\MineTech - Faction\1.6\Source\obj\Debug\MinetechFaction.pdb

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MT_Setting_EnableMountainBias>Enable mountain-biased settlement generation</MT_Setting_EnableMountainBias>
+  <MT_Setting_EnableMountainBias_Desc>When enabled, MineTech settlements will prioritize generating near mountains and impassable peaks within a configurable tile distance.</MT_Setting_EnableMountainBias_Desc>
+  <MT_Setting_MaxMountainDistance>Maximum distance to mountain: {0} tile(s)</MT_Setting_MaxMountainDistance>
+</LanguageData>

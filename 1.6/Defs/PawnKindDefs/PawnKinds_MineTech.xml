@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Base PawnKind for MineTech -->
+  <PawnKindDef Name="MT_PawnBase" ParentName="OutlanderBase" Abstract="True">
+    <defaultFactionDef>MT_MinetechCivil</defaultFactionDef>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <!-- MineTech Miner -->
+  <PawnKindDef ParentName="MT_PawnBase">
+    <defName>MT_Miner</defName>
+    <label>minetech miner</label>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.6~1.8</gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <apparelRequired>
+      <li>MT_MinerHelm</li>
+      <li>MT_MinerArmor</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>MT_Apparel_Miner</li>
+    </apparelTags>
+    <apparelMoney>400~800</apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>200~400</weaponMoney>
+    <weaponTags>
+      <li>IndustrialMeleeDestructive</li>
+      <li>MT_IndustrialTool</li>
+      <li>SimpleGun</li>
+      <li>MT_IndustrialPistol</li>
+    </weaponTags>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>10~18</initialResistanceRange>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.30</Dirtmole>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <!-- MineTech Security -->
+  <PawnKindDef ParentName="MT_PawnBase">
+    <defName>MT_Security</defName>
+    <label>minetech security</label>
+    <combatPower>85</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~2.0</gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <apparelRequired>
+      <li>MT_SecHelm</li>
+      <li>MT_SecArmor</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>BeltDefensePop</li>
+      <li>MT_Apparel_Security</li>
+    </apparelTags>
+    <apparelMoney>400~800</apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>200~1600</weaponMoney>
+    <weaponTags>
+      <li>IndustrialMeleeDestructive</li>
+      <li>MT_IndustrialTool</li>
+      <li>SimpleGun</li>
+      <li>IndustrialGunBasic</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>Gun</li>
+      <li>MT_IndustrialRifle</li>
+    </weaponTags>
+    <techHediffsChance>0.12</techHediffsChance>
+    <techHediffsMoney>200~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.15</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+</Defs>

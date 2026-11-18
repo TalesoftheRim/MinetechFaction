@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>MineTech - Faction</name>
+	<author>Talesoftherim, Airo</author>
+	<supportedVersions>
+	  <li>1.6</li>
+	  <li>1.7</li>
+	</supportedVersions>
+	<packageId>Talesoftherim.MinetechFaction</packageId>
+	<description>This mod added faction module for the Minetech mod.</description>
+
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Talesoftherim.Minetech</packageId>
+			<displayName>MineTech</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>Talesoftherim.Minetech</li>
+	</loadAfter>
+
+</ModMetaData>

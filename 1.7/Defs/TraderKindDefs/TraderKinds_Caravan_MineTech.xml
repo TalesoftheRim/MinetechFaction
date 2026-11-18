@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>MT_Caravan_Outlander_MinerStash</defName>
+    <label>miner stash caravan</label>
+    <stockGenerators>
+
+      <!-- Currency -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>1200~2500</countRange>
+      </li>
+
+      <!-- Mined Resources & Ores (Core Focus) -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>500~1500</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>80~250</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>60~180</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>100~350</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>80~200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>30~60</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <countRange>200~450</countRange>
+      </li>
+
+      <!-- Excavation Stone Blocks -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>StoneBlocks</categoryDef>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>150~350</countRange>
+      </li>
+
+      <!-- MineTech Tools & Equipment -->
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>MT_Drill</li>
+          <li>MT_Grinder</li>
+        </thingDefs>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MT_MinerHelm</thingDef>
+        <countRange>1~3</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MT_MinerArmor</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MT_SecHelm</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MT_SecArmor</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MT_Pistol</thingDef>
+        <countRange>0~2</countRange>
+      </li>
+
+      <!-- Provisions & Field Medicine -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>15~35</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>10~25</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <totalPriceRange>50~150</totalPriceRange>
+      </li>
+
+      <!-- Pack Animals for Hauling Ores -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1</kindCountRange>
+        <countRange>2~4</countRange>
+      </li>
+
+      <!-- Buying Rules: Caravans buy provisions, medicines, textiles, luxury, and ranged weapons -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Clothing</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>FoodRaw</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>FoodMeals</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>
